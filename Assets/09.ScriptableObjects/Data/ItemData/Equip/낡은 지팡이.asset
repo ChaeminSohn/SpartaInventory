@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5020f97aed5cae044b2c692c2a7fe6e9, type: 3}
+  m_Name: "\uB0A1\uC740 \uC9C0\uD321\uC774"
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemID: 0
+  itemName: "\uB0A1\uC740 \uC9C0\uD321\uC774"
+  quantity: 1
+  maxStack: 1
+  isMultiple: 0
+  equipType: 1
+  healthStat: 0
+  manaStat: 10
+  attackStat: 10
+  defenseStat: 0
+  speedStat: 0
+  jumpStat: 0
+  usableType: 0
+  statType: 0
+  healAmount: 0
+  buffStat: 0
+  duration: 0
+  itemDescription: 
+  itemIcon: {fileID: 21300000, guid: af6691350962efd4896a6ea4e7492f30, type: 3}

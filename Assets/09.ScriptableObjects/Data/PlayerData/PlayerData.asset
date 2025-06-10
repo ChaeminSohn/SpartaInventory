@@ -17,7 +17,10 @@ MonoBehaviour:
   level: 10
   currentExp: 0
   expThreshold: 0
+  guild: '-'
+  fame: 2025
   gold: 9999
+  description: "\uC548\uB155\uD558\uC138\uC694. \uBC18\uAC11\uC2B5\uB2C8\uB2E4."
   baseHealth: 50
   baseMana: 20
   baseAttack: 5

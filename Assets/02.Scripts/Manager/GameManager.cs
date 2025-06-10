@@ -9,9 +9,12 @@ namespace _02.Scripts.Manager
     {
         public GameObject Player;
         public Inventory inventory;
+        public PlayerStat PlayerStat;
+
         private void Start()
         {
             UIManager.Instance.OpenWindow(UIType.MainWindow);
+            PlayerStat = Player.GetComponent<PlayerStat>();
         }
     }
 }

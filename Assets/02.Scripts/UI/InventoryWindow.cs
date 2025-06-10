@@ -6,6 +6,7 @@ using _02.Scripts.Manager;
 using _02.Scripts.Player;
 using _02.Scripts.Util;
 using _09.ScriptableObjects.Script;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,8 +21,9 @@ namespace _02.Scripts.UI
         public Button UsableCategoryButton;
         public Button OtherCategoryButton;
         public Button CashCategoryButton;
-
+        
         public InventorySlotUI[] slots;
+        public TextMeshProUGUI goldText;
         private ItemType currentCategory = ItemType.Equipment;
         public override UIType UIType => UIType.InventoryWindow;
 
@@ -36,7 +38,7 @@ namespace _02.Scripts.UI
         public override void OnOpen()
         {
             inventory = GameManager.Instance.inventory;
-            
+            goldText.text = GameManager.Instance.PlayerStat.playerData.gold.ToString();
             closeButton.onClick.AddListener(() =>
             {
                 UIManager.Instance.CloseWindow(UIType.InventoryWindow);
@@ -102,8 +104,14 @@ namespace _02.Scripts.UI
                 case ItemType.Equipment:
                     //장비 타입이라면, Equipment 행동 객체를 생성
                     EquipmentItem equipment = new EquipmentItem(data);
-                    equipment.Equip(EquipmentManager.Instance, slotIndex);
-                    //slotData.isEquipped = !slotData.isEquipped;
+                    if (slotData.isEquipped)
+                    {
+                        equipment.Unequip(EquipmentManager.Instance);
+                    }
+                    else
+                    {
+                        equipment.Equip(EquipmentManager.Instance, slotIndex);
+                    }
                     Debug.Log($"{data.itemName}을(를) 장착했습니다.");
                     break;
 

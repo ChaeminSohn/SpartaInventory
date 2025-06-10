@@ -4,8 +4,8 @@ namespace _02.Scripts.Event
 {
     public struct InventoryChangeEvent
     {
-        public ItemType ItemType;
-        public int SlotIndex;
+        public ItemType ItemType { get; private set; }
+        public int SlotIndex{ get; private set; }
 
         public InventoryChangeEvent(ItemType itemType, int slotIndex)
         {

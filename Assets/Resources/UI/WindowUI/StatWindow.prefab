@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 3731707638848936914}
   - component: {fileID: 9034076619991545387}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: SpeedText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -878,6 +878,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closeButton: {fileID: 1657127407513543773}
+  nameText: {fileID: 4613377691606396655}
+  classText: {fileID: 356668289253708584}
+  guildText: {fileID: 6260099687086134881}
+  fameText: {fileID: 197456591993613826}
+  healthText: {fileID: 1668217321419290075}
+  manaText: {fileID: 8595669254086436868}
+  attackText: {fileID: 8498461499779317665}
+  defenseText: {fileID: 8187419633135833920}
+  speedText: {fileID: 9034076619991545387}
+  jumpText: {fileID: 6393299865823720662}
 --- !u!1 &1091693932380025199
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,7 +900,7 @@ GameObject:
   - component: {fileID: 7066198061079578134}
   - component: {fileID: 8187419633135833920}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: DefenseText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1192,7 +1202,7 @@ GameObject:
   - component: {fileID: 4996240796497506403}
   - component: {fileID: 4613377691606396655}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: NameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1659,7 +1669,7 @@ GameObject:
   - component: {fileID: 4255009892720194016}
   - component: {fileID: 8498461499779317665}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: AttackText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2007,7 +2017,7 @@ GameObject:
   - component: {fileID: 4153099334745343910}
   - component: {fileID: 6393299865823720662}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: JumpText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2292,7 +2302,7 @@ GameObject:
   - component: {fileID: 2652497952469414426}
   - component: {fileID: 1668217321419290075}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: HealthText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2503,7 +2513,7 @@ GameObject:
   - component: {fileID: 2289635200907661499}
   - component: {fileID: 356668289253708584}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ClassText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3436,7 +3446,7 @@ GameObject:
   - component: {fileID: 6508083601101956223}
   - component: {fileID: 197456591993613826}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: FameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5093,7 +5103,7 @@ GameObject:
   - component: {fileID: 1152518201417006576}
   - component: {fileID: 8595669254086436868}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ManaText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5304,7 +5314,7 @@ GameObject:
   - component: {fileID: 3846916507433253766}
   - component: {fileID: 6260099687086134881}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: GuildText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

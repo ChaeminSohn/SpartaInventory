@@ -41,7 +41,7 @@ namespace _02.Scripts.Player
                 {
                     InventorySlot slot = slots[i];
                     // 같은 아이템이 있고, 아직 슬롯에 여유가 있다면
-                    if (slot.itemData != null && slot.itemData.itemID == itemToAdd.itemID && slot.quantity < itemToAdd.maxStack)
+                    if (slot.itemData != null && slot.itemData == itemToAdd && slot.quantity < itemToAdd.maxStack)
                     {
                         int spaceLeft = itemToAdd.maxStack - slot.quantity; // 슬롯에 남은 공간
                         int amountToAdd = Mathf.Min(count, spaceLeft);   // 추가할 수량과 남은 공간 중 더 작은 값만큼 추가

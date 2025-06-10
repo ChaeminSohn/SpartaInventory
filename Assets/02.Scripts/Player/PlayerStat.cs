@@ -1,5 +1,7 @@
 using System;
+using _02.Scripts.Event;
 using _02.Scripts.Item;
+using _02.Scripts.Util;
 using _09.ScriptableObjects.Script;
 using UnityEngine;
 
@@ -19,12 +21,16 @@ namespace _02.Scripts.Player
     {
         public PlayerData playerData;
         public int TotalHealth { get; private set; }
+        public int CurrentHealth { get; private set; }
         public int TotalMana { get; private set; }
+        public int CurrentMana { get; private set; }
         public int TotalAttack { get; private set; }
         public int TotalDefense { get; private set; }
         public int TotalSpeed { get; private set; }
         public int TotalJump { get; private set; }
 
+        public Action StatChangeEvent;
+        
         private void Awake()
         {
             if (!playerData)
@@ -34,7 +40,9 @@ namespace _02.Scripts.Player
             }
 
             TotalHealth = playerData.baseHealth;
+            CurrentHealth = TotalHealth;
             TotalMana = playerData.baseMana;
+            CurrentMana = TotalMana;
             TotalAttack = playerData.baseAttack;
             TotalDefense = playerData.baseDefense;
             TotalSpeed = playerData.baseSpeed;
@@ -49,6 +57,7 @@ namespace _02.Scripts.Player
             TotalDefense += equipment.ItemData.defenseStat;
             TotalSpeed += equipment.ItemData.speedStat;
             TotalJump += equipment.ItemData.jumpStat;
+            StatChangeEvent?.Invoke();
         }
 
         public void RemoveStatModifiers(EquipmentItem equipment)
@@ -59,6 +68,7 @@ namespace _02.Scripts.Player
             TotalDefense -= equipment.ItemData.defenseStat;
             TotalSpeed -= equipment.ItemData.speedStat;
             TotalJump -= equipment.ItemData.jumpStat;
+            StatChangeEvent?.Invoke();
         }
     }
 }

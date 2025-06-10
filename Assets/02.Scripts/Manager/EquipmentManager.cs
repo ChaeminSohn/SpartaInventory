@@ -34,7 +34,7 @@ namespace _02.Scripts.Manager
                 //해제된 아이템의 원래 인벤토리 슬롯을 찾아 '장착 해제' 상태로 변경
                 int oldItemSlotIndex = inventory.FindEquippedSlotIndex(oldItem.ItemData);
                 if(oldItemSlotIndex != -1)
-                {
+                {   
                     inventory.SetEquippedState(oldItemSlotIndex, false);
                 }
             }

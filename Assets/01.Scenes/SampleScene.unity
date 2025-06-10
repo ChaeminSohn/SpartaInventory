@@ -737,7 +737,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d72b3c789a009c41be602a88b8ae953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 852374390}
   inventory: {fileID: 852374393}
+  PlayerStat: {fileID: 852374392}
 --- !u!4 &1432602563
 Transform:
   m_ObjectHideFlags: 0
