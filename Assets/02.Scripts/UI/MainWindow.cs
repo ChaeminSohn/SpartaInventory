@@ -6,7 +6,7 @@ namespace _02.Scripts.UI
     {
         public Text headerText;
         public Button inventoryButton;
-        public Button statButton;
+        public Button statusButton;
         public override UIType UIType => UIType.MainWindow;
 
         public override void OnOpen()
