@@ -9,9 +9,9 @@ namespace _02.Scripts.Test
 {
     public class AddItemButton : MonoBehaviour
     {
-        public Inventory Inventory;
         public ItemType ItemType;
         public ItemData[] ItemDatas;
+        private Inventory Inventory;
 
         private void Start()
         {

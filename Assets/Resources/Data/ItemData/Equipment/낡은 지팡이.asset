@@ -18,7 +18,7 @@ MonoBehaviour:
   quantity: 1
   maxStack: 1
   isMultiple: 0
-  equipType: 0
+  equipType: 1
   healthStat: 0
   manaStat: 10
   attackStat: 10
