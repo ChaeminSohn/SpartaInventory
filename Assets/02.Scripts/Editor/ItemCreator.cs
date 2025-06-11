@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using _02.Scripts.Item;
 using _02.Scripts.Player;
 using _09.ScriptableObjects.Script;
@@ -29,7 +30,9 @@ namespace _02.Scripts.Editor
         private int itemHealAmount;
         private int itemBuffAmount;
         private float itemBuffDuration;
-
+        
+        private string savePath = "Assets/Resources/Data/ItemData";
+        
         [MenuItem("Window/Item Creator")]
         private static void ShowWindow()
         {
@@ -81,9 +84,19 @@ namespace _02.Scripts.Editor
                 data.healAmount = itemHealAmount;
                 data.buffStat = itemBuffAmount;
                 data.duration = itemBuffDuration;
-                data.usableType = itemUsableType;   
-                data.itemIcon = itemImage; AssetDatabase.CreateAsset(data, $"Assets/09.ScriptableObjects/Data/ItemData/{itemName}.asset");
+                data.usableType = itemUsableType;
+                data.itemIcon = itemImage; 
+                
+                //지정된 경로에 저장
+                if (!Directory.Exists(savePath))
+                {
+                    Directory.CreateDirectory(savePath);
+                }
+                string assetPath = Path.Combine(savePath, $"{itemType}/{itemName}.asset");
+                AssetDatabase.CreateAsset(data, assetPath);
                 AssetDatabase.SaveAssets();
+                
+                Debug.Log($"아이템 생성 완료: {assetPath}");
             }
         }
     }

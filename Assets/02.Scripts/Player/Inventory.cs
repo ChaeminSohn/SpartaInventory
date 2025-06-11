@@ -130,7 +130,6 @@ namespace _02.Scripts.Player
 
             for (int i = 0; i < slots.Length; i++)
             {
-                // 조건을 추가합니다: 아이템 데이터가 같고, isEquipped가 true인가?
                 if (slots[i].itemData == itemToFind && slots[i].isEquipped == true)
                 {
                     return i; // 두 조건 모두 만족하는 슬롯을 찾았으므로 인덱스 반환

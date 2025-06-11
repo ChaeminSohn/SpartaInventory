@@ -1086,9 +1086,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Inventory: {fileID: 0}
-  ItemDatas:
-  - {fileID: 11400000, guid: 01f9a43c77aa9a44a9d61379231412f2, type: 2}
-  - {fileID: 11400000, guid: e6f8100bf63cc774cbb466d00c9fc0c6, type: 2}
+  ItemType: 1
+  ItemDatas: []
 --- !u!1 &2801936032275202115
 GameObject:
   m_ObjectHideFlags: 0
@@ -1604,9 +1603,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Inventory: {fileID: 0}
-  ItemDatas:
-  - {fileID: 11400000, guid: 15323e2b9bde06f41be161904ddfa7c4, type: 2}
-  - {fileID: 11400000, guid: 7a1faceedccc3a24abbb64262ccc3866, type: 2}
+  ItemType: 2
+  ItemDatas: []
 --- !u!1 &5942333719059170304
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,11 +10,14 @@ namespace _02.Scripts.Test
     public class AddItemButton : MonoBehaviour
     {
         public Inventory Inventory;
+        public ItemType ItemType;
         public ItemData[] ItemDatas;
 
         private void Start()
         {
             Inventory = GameManager.Instance.inventory;
+
+            ItemDatas = Resources.LoadAll<ItemData>($"Data/ItemData/{ItemType}");
         }
 
         public void OnClick()

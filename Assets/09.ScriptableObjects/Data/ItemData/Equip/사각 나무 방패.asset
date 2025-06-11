@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5020f97aed5cae044b2c692c2a7fe6e9, type: 3}
-  m_Name: "\uB0A1\uC740 \uC9C0\uD321\uC774"
+  m_Name: "\uC0AC\uAC01 \uB098\uBB34 \uBC29\uD328"
   m_EditorClassIdentifier: 
   itemType: 1
   itemID: 0
-  itemName: "\uB0A1\uC740 \uC9C0\uD321\uC774"
+  itemName: "\uC0AC\uAC01 \uB098\uBB34 \uBC29\uD328"
   quantity: 1
   maxStack: 1
   isMultiple: 0
   equipType: 0
   healthStat: 0
-  manaStat: 10
-  attackStat: 10
-  defenseStat: 0
+  manaStat: 0
+  attackStat: 0
+  defenseStat: 10
   speedStat: 0
   jumpStat: 0
   usableType: 0
@@ -31,4 +31,4 @@ MonoBehaviour:
   buffStat: 0
   duration: 0
   itemDescription: 
-  itemIcon: {fileID: 21300000, guid: af6691350962efd4896a6ea4e7492f30, type: 3}
+  itemIcon: {fileID: 21300000, guid: c5fb46f777fa518469ef494ebc6a474d, type: 3}

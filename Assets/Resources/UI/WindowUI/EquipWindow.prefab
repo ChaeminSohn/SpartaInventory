@@ -174,7 +174,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &867662647998116567
 CanvasRenderer:
@@ -226,6 +226,7 @@ GameObject:
   - component: {fileID: 5508925927322971001}
   - component: {fileID: 7176444109011372806}
   - component: {fileID: 6711494154763563297}
+  - component: {fileID: 6702454258020260971}
   m_Layer: 5
   m_Name: PocketSlot
   m_TagString: Untagged
@@ -336,6 +337,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6702454258020260971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253981516537172463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 2649485672107242966}
+  equipType: 19
 --- !u!1 &350537062147472917
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +386,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4791965983429389823
 CanvasRenderer:
@@ -423,6 +438,7 @@ GameObject:
   - component: {fileID: 4857341590765671694}
   - component: {fileID: 2380427402427504987}
   - component: {fileID: 4706750847292454964}
+  - component: {fileID: 2951735705329047501}
   m_Layer: 5
   m_Name: PendantSlot
   m_TagString: Untagged
@@ -533,6 +549,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2951735705329047501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576325408568518621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 7847919823641779128}
+  equipType: 12
 --- !u!1 &659430805522499550
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,6 +713,7 @@ GameObject:
   - component: {fileID: 3641044581735623835}
   - component: {fileID: 3559100240654963621}
   - component: {fileID: 5908906870330415890}
+  - component: {fileID: 882320902433327711}
   m_Layer: 5
   m_Name: ForeHeadSlot
   m_TagString: Untagged
@@ -793,6 +824,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &882320902433327711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708336269133452924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 4041301801663982665}
+  equipType: 13
 --- !u!1 &710916159140704379
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,7 +908,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7313957766350498582
 CanvasRenderer:
@@ -1050,6 +1095,7 @@ GameObject:
   - component: {fileID: 7378044759418536716}
   - component: {fileID: 5274755535077301688}
   - component: {fileID: 2254318705601513837}
+  - component: {fileID: 8182635055695920267}
   m_Layer: 5
   m_Name: BadgeSlot
   m_TagString: Untagged
@@ -1160,6 +1206,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8182635055695920267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467144149261645050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 3551348722440192238}
+  equipType: 17
 --- !u!1 &1520835457959074670
 GameObject:
   m_ObjectHideFlags: 0
@@ -1505,7 +1565,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3487141323879773385
 CanvasRenderer:
@@ -1592,6 +1652,7 @@ GameObject:
   - component: {fileID: 8545230130118246042}
   - component: {fileID: 7616760736104093711}
   - component: {fileID: 9149885788227883150}
+  - component: {fileID: 3527646300677488831}
   m_Layer: 5
   m_Name: CapSlot
   m_TagString: Untagged
@@ -1702,6 +1763,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3527646300677488831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835781000206562730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 5311926217285790569}
+  equipType: 3
 --- !u!1 &1949133682317311147
 GameObject:
   m_ObjectHideFlags: 0
@@ -1737,7 +1812,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1596339616552059111
 CanvasRenderer:
@@ -1812,7 +1887,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4485286643017943975
 CanvasRenderer:
@@ -1864,6 +1939,7 @@ GameObject:
   - component: {fileID: 4216223018491474808}
   - component: {fileID: 3348633535260690814}
   - component: {fileID: 4813985113403266918}
+  - component: {fileID: 2495999865518010463}
   m_Layer: 5
   m_Name: BeltSlot
   m_TagString: Untagged
@@ -1974,6 +2050,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2495999865518010463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2152850427019858111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 7635290616990355832}
+  equipType: 8
 --- !u!1 &2186829501368794252
 GameObject:
   m_ObjectHideFlags: 0
@@ -2067,6 +2157,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closeButton: {fileID: 983101138831119926}
+  slots:
+  - {fileID: 8521554216735463963}
+  - {fileID: 3527646300677488831}
+  - {fileID: 2745178827847085123}
+  - {fileID: 8926889058964735542}
+  - {fileID: 882320902433327711}
+  - {fileID: 8182635055695920267}
+  - {fileID: 3800775109711758889}
+  - {fileID: 2951735705329047501}
+  - {fileID: 7353291641739068527}
+  - {fileID: 8502861715264871772}
+  - {fileID: 1672215258031120351}
+  - {fileID: 3297851430308897278}
+  - {fileID: 117325109133108572}
+  - {fileID: 2469324935113397461}
+  - {fileID: 1099356705172324776}
+  - {fileID: 4725120023332933435}
+  - {fileID: 6702454258020260971}
+  - {fileID: 2495999865518010463}
+  - {fileID: 9073477782808708458}
+  - {fileID: 7439614880432364449}
+  - {fileID: 257686299226797151}
+  - {fileID: 8743773074132676433}
+  - {fileID: 5234353637620476577}
+  - {fileID: 3945019485533339891}
 --- !u!1 &2343839482490752688
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,6 +2194,7 @@ GameObject:
   - component: {fileID: 8624838949666915612}
   - component: {fileID: 6695333431562676100}
   - component: {fileID: 2519485571899163360}
+  - component: {fileID: 2469324935113397461}
   m_Layer: 5
   m_Name: ClotheSlot
   m_TagString: Untagged
@@ -2189,6 +2305,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2469324935113397461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2343839482490752688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 6955420392618306160}
+  equipType: 4
 --- !u!1 &2475857385294728979
 GameObject:
   m_ObjectHideFlags: 0
@@ -2450,7 +2580,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &430187576966498954
 CanvasRenderer:
@@ -2525,7 +2655,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4096991028064432074
 CanvasRenderer:
@@ -2712,6 +2842,7 @@ GameObject:
   - component: {fileID: 5915129857510322609}
   - component: {fileID: 7023538062373524328}
   - component: {fileID: 3340938137769472458}
+  - component: {fileID: 5234353637620476577}
   m_Layer: 5
   m_Name: AndroidSlot
   m_TagString: Untagged
@@ -2822,6 +2953,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5234353637620476577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2783559098171769899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 893538611464882597}
+  equipType: 20
 --- !u!1 &3077840110733005111
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,6 +2979,7 @@ GameObject:
   - component: {fileID: 4277248415750799792}
   - component: {fileID: 2342780650318709602}
   - component: {fileID: 2733623701807656201}
+  - component: {fileID: 8743773074132676433}
   m_Layer: 5
   m_Name: ShoeSlot
   m_TagString: Untagged
@@ -2944,6 +3090,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8743773074132676433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3077840110733005111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 1589452609374853064}
+  equipType: 6
 --- !u!1 &3094614495395556780
 GameObject:
   m_ObjectHideFlags: 0
@@ -3251,7 +3411,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &203730736007191220
 CanvasRenderer:
@@ -3326,7 +3486,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7223639655756944908
 CanvasRenderer:
@@ -3823,6 +3983,7 @@ GameObject:
   - component: {fileID: 8611588922255570227}
   - component: {fileID: 1193069927393666112}
   - component: {fileID: 9039512342410116325}
+  - component: {fileID: 1099356705172324776}
   m_Layer: 5
   m_Name: ShoulderSlot
   m_TagString: Untagged
@@ -3933,6 +4094,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1099356705172324776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3737218333127571885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 4581635906278106009}
+  equipType: 16
 --- !u!1 &3746738366790277225
 GameObject:
   m_ObjectHideFlags: 0
@@ -4245,6 +4420,7 @@ GameObject:
   - component: {fileID: 5235089551571209933}
   - component: {fileID: 443059949320936549}
   - component: {fileID: 6022404042881366152}
+  - component: {fileID: 2745178827847085123}
   m_Layer: 5
   m_Name: EmblemSlot
   m_TagString: Untagged
@@ -4355,6 +4531,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2745178827847085123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4139796641029145889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 2804588142913773184}
+  equipType: 10
 --- !u!1 &4334933062780513897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4404,6 +4594,7 @@ GameObject:
   - component: {fileID: 4711729132470463186}
   - component: {fileID: 2937233058278531428}
   - component: {fileID: 6874159278597611061}
+  - component: {fileID: 8521554216735463963}
   m_Layer: 5
   m_Name: RingSlot_1
   m_TagString: Untagged
@@ -4514,6 +4705,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8521554216735463963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4470305662892911772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 7556362740713174595}
+  equipType: 11
 --- !u!1 &4604260332145221156
 GameObject:
   m_ObjectHideFlags: 0
@@ -4549,7 +4754,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1468945085408055379
 CanvasRenderer:
@@ -4601,6 +4806,7 @@ GameObject:
   - component: {fileID: 5811855250273338954}
   - component: {fileID: 5129101448498964277}
   - component: {fileID: 8119186140586170062}
+  - component: {fileID: 1672215258031120351}
   m_Layer: 5
   m_Name: MedalSlot
   m_TagString: Untagged
@@ -4711,6 +4917,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1672215258031120351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4701880741141096134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 6580933136769999535}
+  equipType: 18
 --- !u!1 &4844254616206571551
 GameObject:
   m_ObjectHideFlags: 0
@@ -4746,7 +4966,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4950514488859530043
 CanvasRenderer:
@@ -4821,7 +5041,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3652702216802522477
 CanvasRenderer:
@@ -4873,6 +5093,7 @@ GameObject:
   - component: {fileID: 7356193511967003758}
   - component: {fileID: 1909285003264397724}
   - component: {fileID: 8022559691756421864}
+  - component: {fileID: 7353291641739068527}
   m_Layer: 5
   m_Name: EyeSlot
   m_TagString: Untagged
@@ -4983,6 +5204,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7353291641739068527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4880842701580446537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 1190611509688701421}
+  equipType: 14
 --- !u!1 &5012319056220138797
 GameObject:
   m_ObjectHideFlags: 0
@@ -5153,7 +5388,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6776668446293690669
 CanvasRenderer:
@@ -5342,6 +5577,7 @@ GameObject:
   - component: {fileID: 3482951988681485003}
   - component: {fileID: 2459505633847416429}
   - component: {fileID: 6031955404351629364}
+  - component: {fileID: 9073477782808708458}
   m_Layer: 5
   m_Name: PantSlot
   m_TagString: Untagged
@@ -5452,6 +5688,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &9073477782808708458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161871234255892825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 2031620328023037088}
+  equipType: 5
 --- !u!1 &5186083396350884515
 GameObject:
   m_ObjectHideFlags: 0
@@ -5487,7 +5737,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4725331792253920265
 CanvasRenderer:
@@ -5539,6 +5789,7 @@ GameObject:
   - component: {fileID: 591508105096520405}
   - component: {fileID: 4430168797235179085}
   - component: {fileID: 3280296610388031308}
+  - component: {fileID: 3945019485533339891}
   m_Layer: 5
   m_Name: HeartSlot
   m_TagString: Untagged
@@ -5649,6 +5900,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3945019485533339891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5304423756819310408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 7419181555302219482}
+  equipType: 21
 --- !u!1 &5331785578230680392
 GameObject:
   m_ObjectHideFlags: 0
@@ -5819,7 +6084,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4776295862363517623
 CanvasRenderer:
@@ -5871,6 +6136,7 @@ GameObject:
   - component: {fileID: 2288805291569155026}
   - component: {fileID: 3606709214106207559}
   - component: {fileID: 5686055543015584375}
+  - component: {fileID: 3800775109711758889}
   m_Layer: 5
   m_Name: RingSlot_3
   m_TagString: Untagged
@@ -5981,6 +6247,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3800775109711758889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5458550820284437360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 2099000085372731283}
+  equipType: 0
 --- !u!1 &5638348035398720016
 GameObject:
   m_ObjectHideFlags: 0
@@ -6114,6 +6394,7 @@ GameObject:
   - component: {fileID: 1972293571753973275}
   - component: {fileID: 59427010951709104}
   - component: {fileID: 6454004686888562806}
+  - component: {fileID: 8926889058964735542}
   m_Layer: 5
   m_Name: RingSlot_2
   m_TagString: Untagged
@@ -6224,6 +6505,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8926889058964735542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5785838274541742388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 7173931813330705739}
+  equipType: 11
 --- !u!1 &6050593363250265272
 GameObject:
   m_ObjectHideFlags: 0
@@ -6259,7 +6554,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7964419630381762528
 CanvasRenderer:
@@ -6346,6 +6641,7 @@ GameObject:
   - component: {fileID: 2506883189374352151}
   - component: {fileID: 4376565146557577316}
   - component: {fileID: 7184854868582769357}
+  - component: {fileID: 257686299226797151}
   m_Layer: 5
   m_Name: CapeSlot
   m_TagString: Untagged
@@ -6456,6 +6752,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &257686299226797151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6220860999502053789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 1472951589083474067}
+  equipType: 9
 --- !u!1 &6564527003756726849
 GameObject:
   m_ObjectHideFlags: 0
@@ -6740,6 +7050,7 @@ GameObject:
   - component: {fileID: 587109423551867704}
   - component: {fileID: 7293249674937753702}
   - component: {fileID: 162677720080947165}
+  - component: {fileID: 7439614880432364449}
   m_Layer: 5
   m_Name: GloveSlot
   m_TagString: Untagged
@@ -6850,6 +7161,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7439614880432364449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6843412689196721963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 3001536028066160906}
+  equipType: 7
 --- !u!1 &6931985825806161206
 GameObject:
   m_ObjectHideFlags: 0
@@ -6885,7 +7210,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3427268257803807539
 CanvasRenderer:
@@ -6960,7 +7285,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5523360465149624116
 CanvasRenderer:
@@ -7035,7 +7360,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1806101751458876653
 CanvasRenderer:
@@ -7385,7 +7710,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9107806023872705870
 CanvasRenderer:
@@ -7744,6 +8069,7 @@ GameObject:
   - component: {fileID: 7246046045673456782}
   - component: {fileID: 4272245651215459966}
   - component: {fileID: 5509856171638473738}
+  - component: {fileID: 117325109133108572}
   m_Layer: 5
   m_Name: WeaponSlot
   m_TagString: Untagged
@@ -7854,6 +8180,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &117325109133108572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7718632117951792287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 8590110675150092559}
+  equipType: 1
 --- !u!1 &7858780016653217464
 GameObject:
   m_ObjectHideFlags: 0
@@ -7866,6 +8206,7 @@ GameObject:
   - component: {fileID: 1415380478762804649}
   - component: {fileID: 371705006831531029}
   - component: {fileID: 5580363022074665520}
+  - component: {fileID: 8502861715264871772}
   m_Layer: 5
   m_Name: EarSlot
   m_TagString: Untagged
@@ -7976,6 +8317,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8502861715264871772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7858780016653217464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 3101663175048169249}
+  equipType: 15
 --- !u!1 &7895705586294033778
 GameObject:
   m_ObjectHideFlags: 0
@@ -8148,7 +8503,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &104007228127494764
 CanvasRenderer:
@@ -8200,6 +8555,7 @@ GameObject:
   - component: {fileID: 1653263981870486079}
   - component: {fileID: 6492154578695512485}
   - component: {fileID: 6372369210661376592}
+  - component: {fileID: 4725120023332933435}
   m_Layer: 5
   m_Name: SubWeaponSlot
   m_TagString: Untagged
@@ -8310,6 +8666,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4725120023332933435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8335685709936894992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 2242510911428237740}
+  equipType: 2
 --- !u!1 &8345072326826088164
 GameObject:
   m_ObjectHideFlags: 0
@@ -8322,6 +8692,7 @@ GameObject:
   - component: {fileID: 4377787263235696984}
   - component: {fileID: 7773497660013344440}
   - component: {fileID: 3146750128294449877}
+  - component: {fileID: 3297851430308897278}
   m_Layer: 5
   m_Name: RingSlot_4
   m_TagString: Untagged
@@ -8432,6 +8803,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3297851430308897278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8345072326826088164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b27e37e051866d4a9ed4d3a997f6153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 4251734562013884880}
+  equipType: 11
 --- !u!1 &8628609151795241557
 GameObject:
   m_ObjectHideFlags: 0
@@ -8607,7 +8992,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1124418153296988894
 CanvasRenderer:
@@ -8954,7 +9339,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3138438672764863098
 CanvasRenderer:
